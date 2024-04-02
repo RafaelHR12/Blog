@@ -3,25 +3,43 @@ body {
     background-color: whitesmoke;
 }
 
-.quedaBastilha {
-    background-color: aqua;
+.quedaBastilha a {
+    text-decoration: none;
 }
 
-.reinadoTerror {
-    background-color: darkred;
-    color: white;
+.quedaBastilha p, h2 {
+    text-align: center;
 }
 
-.ascensaoNapoleao {
-    background-color: aquamarine;
+.reinadoTerror a {
+    text-decoration: none;
 }
 
-.legado {
-    background-color: darkred;
-    color: white;
+.reinadoTerror p, h2 {
+    text-align: center;
+}
+
+.ascensaoNapoleao a {
+    text-decoration: none;
+}
+
+.ascensaoNapoleao p, h2 {
+    text-align: center;
+}
+
+.legado a {
+    text-decoration: none;
+}
+
+.legado p, h2 {
+    text-align: center;
 }
 
 header, footer {
     background-color: darkblue;
     color: aliceblue;
 }
+
+
+
+
