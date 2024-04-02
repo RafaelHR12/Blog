@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.quedaBastilha {
+    background-color: aqua;
+}
+
+.reinadoTerror {
+    background-color: darkred;
+    color: white;
+}
+
+.ascensaoNapoleao {
+    background-color: aquamarine;
+}
+
+.legado {
+    background-color: red;
+    color: white;
+}
+
+header, footer {
+    background-color: darkblue;
+    color: aliceblue;
+}
