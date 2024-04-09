@@ -23,6 +23,10 @@ body {
     text-decoration: none;
 }
 
+.leiaMais {
+    text-align: center;
+}
+
 .ascensaoNapoleao p, h2 {
     text-align: center;
 }
@@ -38,6 +42,54 @@ body {
 header, footer {
     background-color: darkblue;
     color: aliceblue;
+}
+
+.paginaInicial a {
+    text-decoration: none;
+}
+
+.conteudoCompleto a {
+    text-decoration: none;
+}
+
+.linha1 {
+    text-align: center;
+}
+
+.linha2 {
+    text-align: center;
+}
+
+.quedaBastilha {
+    display: inline-block;
+    margin: 80px;
+    width: 300px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.ascensaoNapoleao {
+    display: inline-block;
+    margin: 80px;
+    width: 300px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.legado {
+    display: inline-block;
+    margin: 80px;
+    width: 300px;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.reinadoTerror {
+    display: inline-block;
+    margin: 80px;
+    width: 300px;
+    padding: 10px;
+    background-color: darkturquoise;
 }
 
 
