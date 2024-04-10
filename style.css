@@ -1,10 +1,16 @@
-body {
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(182, 236, 236);
+}
+
+.body2 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
 }
 
 .quedaBastilha a {
     text-decoration: none;
+    color: red;
 }
 
 .quedaBastilha p, h2 {
@@ -13,6 +19,7 @@ body {
 
 .reinadoTerror a {
     text-decoration: none;
+    color: red;
 }
 
 .reinadoTerror p, h2 {
@@ -21,6 +28,7 @@ body {
 
 .ascensaoNapoleao a {
     text-decoration: none;
+    color: red;
 }
 
 .leiaMais {
@@ -33,6 +41,7 @@ body {
 
 .legado a {
     text-decoration: none;
+    color: red;
 }
 
 .legado p, h2 {
@@ -42,14 +51,29 @@ body {
 header, footer {
     background-color: darkblue;
     color: aliceblue;
+    text-align: center;
 }
 
 .paginaInicial a {
     text-decoration: none;
+    color: darkblue;
 }
 
 .conteudoCompleto a {
     text-decoration: none;
+    color: darkblue;
+}
+
+.paginaInicial {
+    text-align: center;
+}
+
+.conteudoCompleto {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
 }
 
 .linha1 {
@@ -81,7 +105,7 @@ header, footer {
     margin: 80px;
     width: 300px;
     padding: 10px;
-    background-color: darkcyan;
+    background-color: dodgerblue;
 }
 
 .reinadoTerror {
@@ -92,6 +116,9 @@ header, footer {
     background-color: darkturquoise;
 }
 
-
-
-
+.classA {
+    display: grid; 
+    place-items: center;
+    height: 200px;
+    background-color: bisque;
+}
